@@ -1,0 +1,100 @@
+:root{
+    --cor--fundo: rgb(2, 6, 31);
+    --cor--texto: rgb(240,240,240);
+    --cor--tile: rgb(60, 63, 72);
+    --cor--share: rgb(70, 73, 78);
+}
+
+body{
+   margin:0;
+   padding: 0;
+   background-color: var(--cor--fundo);
+   color: var(--cor--texto);
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 100vw;
+   font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+/* .share-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--cor--texto);
+
+} */
+ 
+.share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
+    color: var(--cor--fundo);
+}
+
+.container{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor--texto);
+
+}
+
+.tile{
+    width: 100%;
+    background-color: var(--cor--tile);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover{
+    transform: scale(1.02);
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+}
+
+.tile-share-button{
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--cor--share);
+}
+
+.tile-share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.image-container{
+    overflow: hidden; 
+}
+
+.image-container img{
+    height: 100%;
+}
+
+.icon{
+    margin: 6px 8px;
+}
