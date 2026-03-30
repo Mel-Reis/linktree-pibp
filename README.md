@@ -7,6 +7,8 @@ Este é um projeto de página estilo **Linktree**, desenvolvido para centralizar
 
 O objetivo deste projeto é criar uma página simples, responsiva e funcional para facilitar o acesso às redes sociais da igreja.
 
+Site: https://pibpaiol.github.io/linktree-pibp/
+
 ## 🛠️ Tecnologias utilizadas
 
 * HTML5
